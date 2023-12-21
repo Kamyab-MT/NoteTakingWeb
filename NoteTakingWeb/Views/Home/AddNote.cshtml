@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+
+    <div class="container">
+
+        <div class="row mt-4">
+            <label>Note Title</label>
+            <input type="text" class="form-control" placeholder="the exciting thing that happend to me last day"></input>
+        </div>
+
+        <div class="row mt-4">
+            <label>Context</label>
+            <textarea class="form-control" rows="10" placeholder="oh i'm so excited i don't know where to start..."></textarea>
+        </div>
+
+        <div class="row mt-4">
+            <button class="btn btn-primary p-4"type="submit">Create</button>
+        </div>
+
+</form>
+
+<partial name="_ValidationScriptsPartial"/>

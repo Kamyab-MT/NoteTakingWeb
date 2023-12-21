@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/NoteTakingWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
@@ -23,6 +24,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <partial name="_LoginPartial"/>
+
                     </ul>
                 </div>
             </div>
@@ -35,8 +37,9 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Made for Fun by <a target="_blank" href="https://github.com/Kamyab-MT">Kamyab Mohammadi Tabar</a>
+        <div class="container text-center">
+            <p class="mb-0">2023 - Made with <i class="bi bi-heart-fill"></i> by <a class="text-primary" target="_blank" href="https://github.com/Kamyab-MT">Kamyab Mohammadi Tabar</a></p>
+            <p class="mb-0">Source code available at <a class="text-primary" target="_blank" href="https://github.com/Kamyab-MT/NoteTakingWeb">Github</a></p>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
